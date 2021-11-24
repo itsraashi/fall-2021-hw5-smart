@@ -29,4 +29,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install pydocstyle
     - name: Run Tests
-      run: pydocstyle apps
+      run: pydocstyle mayan/apps
